@@ -1,7 +1,7 @@
 /*eslint-env es6 */
 /*eslint no-unused-vars: 0 */
 /*global importScripts, localforage */
-importScripts('/localforage.min.js');
+importScripts('https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.2/localforage.js');
 
 //Heavily inspired and borrowed from https://serviceworke.rs/request-deferrer_service-worker_doc.html with a few changes to add re-queueing features, server error checking and periodic flushing.
 
